@@ -5,6 +5,7 @@ import { GoMail } from 'react-icons/go'
 import { FaLinkedin, FaTwitter, FaInstagram, FaFacebookF } from 'react-icons/fa'
 import Subheader from './Subheader/Subheader'
 import logo from '../assets/images/logo.png'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -20,15 +21,15 @@ const Header = () => {
                     </div>
                     <div className="masterContainer-left-phone">
                         <span><BsTelephone /></span>
-                        <span>+255 784 469389</span>
-                        <span>|</span>
+                        <span> +255 784 469389</span>
+                        <span className='middle'>  |  </span>
                         <span>+255 765 449224</span>
                     </div>
                 </div>
                 <div className="masterContainer">
-                    <span>Ways to help</span>
-                    <span>|</span>
-                    <span>Contact Us</span>
+                    <Link className='more' to='/waystohelp'><span>Ways to help</span></Link>
+                    <span className='middle'>  |  </span>
+                    <Link className='more' to='/contactus'><span>Contact Us</span></Link>
 
                 </div>
 
@@ -42,14 +43,21 @@ const Header = () => {
 
                 </div>
                 <div className="secondMasterContainer-navbar">
-                    <Subheader title='Home' />
-                    <Subheader title='What we do' />
-                    <Subheader title='Our Projects' />
-                    <Subheader title='Take Action' />
-                    <Subheader title='About Us' />
-                    <Subheader title='Donate' />
+                    <Link className='menu active' to="/"> <Subheader title='Home' /></Link>
+                    <Link className='menu' to="/events"><Subheader title='Events' /></Link>
+                    <Link className='menu' to="/log"><Subheader title='Blog' /></Link>
+                    <Link className='menu' to="/takeaction"><Subheader title='Take Action' /></Link>
+                    <Link className='menu' to="/aboutus"><Subheader title='About Us' /></Link>
+                    <Link id='donate' to="/donate"><Subheader title='Donate' /></Link>
+
+                    <div className="humberger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
 
                 </div>
+
             </div>
         </div>
     )

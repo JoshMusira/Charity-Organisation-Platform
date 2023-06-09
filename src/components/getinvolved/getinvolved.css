@@ -1,0 +1,48 @@
+.container-volunteer {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  /* border: 1px solid green; */
+  padding-bottom: 25px;
+
+  align-items: center;
+  box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: all 1s ease-in-out;
+  border-radius: 5px;
+}
+.container-volunteer:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.container-volunteer .volunteer-icon {
+  padding: 10px;
+  font-size: 70px;
+  color: #a67d17;
+}
+.container-volunteer .volunteer-name {
+  /* font-weight: 300; */
+  font-size: 25px;
+  padding-bottom: 10px;
+  /* font-family: sans-serif; */
+}
+.container-volunteer .volunteer-explanation {
+  line-height: 1.8;
+  letter-spacing: 1.2px;
+  padding: 15px;
+  color: gray;
+}
+.container-volunteer .volunteer-btn {
+  padding: 7px 15px;
+  font-size: 25px;
+  border-radius: 30px;
+  border: none;
+  background-color: #bd9331;
+  color: gainsboro;
+}
+.container-volunteer .volunteer-btn:hover {
+  cursor: pointer;
+  background-color: #e3bd64;
+  color: white;
+}

@@ -1,0 +1,75 @@
+.mainContainerAction {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-size: cover;
+  background-image: url(../../assets/images/bosa-charity-img1.jpg);
+}
+.mainContainerLeft h4 {
+  line-height: 2;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 25px;
+}
+.mainContainerLeft span {
+  font-size: 50px;
+  color: #a67d17;
+  font-weight: bold;
+}
+.mainContainerLeft p {
+  line-height: 1.5;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+}
+.video {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  align-items: center;
+}
+.video h5 {
+  font-size: 25px;
+}
+.mainContainerRight {
+  background-color: #e8e5dc;
+  width: 35%;
+  height: 60vh;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+.mainContainerRight form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  gap: 50px;
+}
+.mainContainerRight form input {
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+}
+.mainContainerRight form input:focus {
+  outline: none;
+}
+.mainContainerRight form .number {
+  display: flex;
+  justify-content: space-around;
+}
+.mainContainerRight form button {
+  padding: 8px 35px;
+  /* width: 80px; */
+  border-radius: 30px;
+  border: none;
+  background-color: #a67d17;
+  color: white;
+  font-size: 25px;
+}

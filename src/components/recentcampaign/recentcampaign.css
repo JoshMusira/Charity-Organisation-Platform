@@ -1,0 +1,124 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 90%;
+}
+.recentCampaign span {
+  color: #bd9331;
+  font-size: 20px;
+  line-height: 3;
+}
+.campaign {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+.campaign h4 {
+  font-size: 35px;
+  line-height: 1.5;
+}
+.campaign button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #bd9331;
+  color: white;
+  font-size: 25px;
+}
+.campaign button:hover {
+  background-color: #e0bb64;
+  cursor: pointer;
+}
+.campaignContainer {
+  display: flex;
+  /* border: 1px solid red; */
+
+  justify-content: space-evenly;
+}
+.campaignContainerLeft {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: all 1s ease-in-out;
+  border: 2px solid whitesmoke;
+  background-color: whitesmoke;
+}
+.content img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /* padding-bottom: 25px; */
+}
+.content h4 {
+  font-size: 25px;
+  line-height: 2;
+  color: #e0bb64;
+}
+.money {
+  display: flex;
+  justify-content: space-around;
+}
+.money .moneyRised {
+  display: flex;
+  line-height: 2.5;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 10px;
+  align-items: center;
+  width: 25%;
+  flex-direction: column;
+  transition: all 0.3s ease-in;
+}
+.money .moneyRised:hover {
+  background-color: gainsboro;
+  cursor: pointer;
+}
+.money .moneyRised {
+  padding: 10;
+}
+.raised-funds {
+  display: flex;
+  margin-top: 20px;
+  gap: 140px;
+  background-color: #e0bb64;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+.raised-funds span {
+  /* background-color: #e0bb64; */
+  color: white;
+  padding: 4px;
+}
+.buttonscampaign {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.buttonscampaign .donate {
+  background-color: #bd9331;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+.buttonscampaign .details {
+  /* background-color: #bd9331; */
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 1px solid #bd9331;
+  border-radius: 20px;
+  color: #bd9331;
+}
+.buttonscampaign .details:hover {
+  background-color: #bd9331;
+  color: white;
+  cursor: pointer;
+}
+.buttonscampaign button:hover {
+  background-color: #e0bb64;
+  cursor: pointer;
+}

@@ -1,0 +1,101 @@
+.HomeAbout {
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  gap: 50px;
+}
+.imagecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 20; */
+}
+.imagecontainer img {
+  border-radius: 20px;
+}
+.totalCounter {
+  display: flex;
+  width: 90%;
+  /* border: 1px solid red; */
+  height: 20vh;
+  margin-top: -70px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #bd9331;
+  border-radius: 15px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+}
+.counter span {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 20px;
+}
+.hr-counter {
+  /* border: 1px solid red; */
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+}
+.hr-counter .hr {
+  color: gray;
+  height: 100vh;
+}
+.workCntainer h4 {
+  color: #fbb207;
+  font-size: 20px;
+  margin-top: -30px;
+}
+.workCntainer h5 {
+  padding-top: 30px;
+  font-size: 30px;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+.workCntainer p {
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  color: gray;
+  padding-bottom: 25px;
+}
+.experience {
+  display: flex;
+  justify-content: space-around;
+}
+.experience-left p span {
+  color: #fbb207;
+  font-size: 20px;
+}
+.experience-right {
+  background-color: #fbb207;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.experience-right span {
+  padding: 5px;
+  color: white;
+  font-size: 25px;
+}
+.experience-right span b {
+  font-size: 40px;
+}
+.Learn-More {
+  padding: 12px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  color: whitesmoke;
+  background-color: #bd9331;
+}
+.Learn-More:hover {
+  background-color: #fbb207;
+  cursor: pointer;
+}

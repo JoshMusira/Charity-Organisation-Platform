@@ -1,0 +1,128 @@
+.upcommingEvent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 30px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.top span {
+  font-size: 20px;
+  color: #efb115;
+  font-weight: bold;
+}
+.top h4 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.containerEvents {
+  display: flex;
+  width: 90%;
+  gap: 50px;
+}
+.left {
+  display: flex;
+  background-image: url(../../assets/images/bosa-charity-img3.jpg);
+  flex-direction: column;
+  background-size: cover;
+  height: 75vh;
+  background-repeat: no-repeat;
+  gap: 20px;
+  position: relative;
+  border-radius: 20px;
+  /* margin-bottom: 20px; */
+}
+.left .date {
+  /* border: 1px solid white; */
+  margin-top: 20px;
+  width: 20%;
+  /* position: absolute; */
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  /* float: right; */
+  /* left: -200px; */
+  gap: 10px;
+
+  background-color: #efb115;
+
+  border-radius: 20px;
+}
+.left .date span {
+  font-style: oblique;
+  font-size: 25px;
+  color: white;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  line-height: 2;
+}
+.middle h5 {
+  font-size: 25px;
+  color: white;
+}
+.middle .time {
+  display: flex;
+  color: #efb115;
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.moretime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: black;
+}
+.icon {
+  color: red;
+  font-size: 20px;
+}
+.middle p {
+  color: white;
+  font-size: 18px;
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
+.book {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #efb115;
+}
+.book:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #d4a631;
+}
+.details {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: transparent;
+  border: 2px solid #efb115;
+  color: black;
+  /* background-color: #efb115; */
+}
+.details:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #d4a631;
+}

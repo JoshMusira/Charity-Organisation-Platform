@@ -1,0 +1,30 @@
+.workmorecontainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+.aboutImage {
+  background-image: url(../../assets/images/help.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100%; */
+  /* object-fit: cover; */
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutImage h1 {
+  font-size: 100px;
+  line-height: 2;
+  letter-spacing: 1.5px;
+}
+.worktop {
+  display: flex;
+  margin-top: 30px;
+  /* width: 90%; */
+  align-items: center;
+  justify-content: center;
+}
