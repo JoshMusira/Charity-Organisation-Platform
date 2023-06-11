@@ -4,7 +4,7 @@
   background-color: whitesmoke;
   /* border: 1px solid green; */
   padding-bottom: 25px;
-
+  width: 35%;
   align-items: center;
   box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
@@ -45,4 +45,9 @@
   cursor: pointer;
   background-color: #e3bd64;
   color: white;
+}
+@media only screen and (max-width: 1000px) {
+  .container-volunteer {
+    width: 80%;
+  }
 }

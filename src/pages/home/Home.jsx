@@ -24,18 +24,19 @@ const Home = () => {
                     <span className='explanation'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus suscipit veniam soluta nulla ab, doloremque voluptatem amet vitae obcaecati nemo fugiat nihil eaque in ipsa? Quae delectus rem sit aut.</span>
                     <div className="buttons">
                         <button className="btn">Donate Fund</button>
-                        <button className="read-more">Read More</button>
+                        <button className="readmore">Read More</button>
                     </div>
                 </div>
             </div>
             <div class="marquee-container">
-                <div class="marquee">
+                <div className="marquee">
                     <span className='campagn'><img src={one} alt="" /></span>
                     <span className='campagn'><img src={two} alt="" /></span>
                     <span className='campagn'><img src={three} alt="" /></span>
                     <span className='campagn'><img src={four} alt="" /></span>
                     <span className='campagn'><img src={five} alt="" /></span>
                 </div>
+
 
             </div>
 

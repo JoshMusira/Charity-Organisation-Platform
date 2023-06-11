@@ -61,6 +61,42 @@
   font-size: 25px;
   color: white;
 }
+.Right {
+  display: flex;
+  background-image: url(../../assets/images/bosa-charity-img2.jpg);
+  flex-direction: column;
+  background-size: cover;
+  height: 75vh;
+  background-repeat: no-repeat;
+  gap: 20px;
+  position: relative;
+  border-radius: 20px;
+  /* margin-bottom: 20px; */
+}
+.Right .date {
+  /* border: 1px solid white; */
+  margin-top: 20px;
+  width: 20%;
+  /* position: absolute; */
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  /* float: right; */
+  /* left: -200px; */
+  gap: 10px;
+
+  background-color: #efb115;
+
+  border-radius: 20px;
+}
+.Right .date span {
+  font-style: oblique;
+  font-size: 25px;
+  color: white;
+}
 .middle {
   display: flex;
   flex-direction: column;

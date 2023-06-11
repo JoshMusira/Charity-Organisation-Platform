@@ -39,7 +39,7 @@ const UpCommingEvent = () => {
                         <button className="details">View Details</button>
                     </div>
                 </div>
-                <div className="left">
+                <div className="Right">
                     <div className="date">
 
                         <span>27th</span>

@@ -45,7 +45,7 @@ const Header = () => {
                 <div className="secondMasterContainer-navbar">
                     <Link className='menu active' to="/"> <Subheader title='Home' /></Link>
                     <Link className='menu' to="/events"><Subheader title='Events' /></Link>
-                    <Link className='menu' to="/log"><Subheader title='Blog' /></Link>
+                    <Link className='menu' to="/blog"><Subheader title='Blog' /></Link>
                     <Link className='menu' to="/takeaction"><Subheader title='Take Action' /></Link>
                     <Link className='menu' to="/aboutus"><Subheader title='About Us' /></Link>
                     <Link id='donate' to="/donate"><Subheader title='Donate' /></Link>

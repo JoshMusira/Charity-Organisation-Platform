@@ -1,8 +1,9 @@
 .homeContainer {
   width: 100%;
-  height: 85vh;
+  /* height: 85vh; */
   background-position: center center;
   background-size: cover;
+  overflow-x: hidden;
   /* object-fit: contain; */
   background-image: url(../../assets/images/bosa-charity-img2.jpg);
 }
@@ -32,6 +33,9 @@
   line-height: 1.8;
   padding-bottom: 25px;
 }
+.buttons {
+  display: flex;
+}
 .buttons .btn {
   /* display: flex; */
   padding: 15px 20px;
@@ -43,7 +47,7 @@
   margin-right: 25px;
   cursor: pointer;
 }
-.read-more {
+.readmore {
   padding: 15px 20px;
   font-size: 25px;
   background: transparent;
@@ -51,7 +55,7 @@
   border: 2px solid white;
   border-radius: 30px;
 }
-.read-more:hover {
+.readmore:hover {
   cursor: pointer;
   background-color: #a67d17;
 }
@@ -120,7 +124,22 @@
 }
 .getInvolved .components {
   gap: 35px;
-  width: 80%;
+  width: 90%;
   padding: 20px;
   /* border: 1px solid red; */
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    overflow-x: hidden;
+  }
+  .components {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .involved-bellow {
+    padding: 0px 10px;
+    font-weight: 300;
+    /* font-size: 12px; */
+  }
 }
